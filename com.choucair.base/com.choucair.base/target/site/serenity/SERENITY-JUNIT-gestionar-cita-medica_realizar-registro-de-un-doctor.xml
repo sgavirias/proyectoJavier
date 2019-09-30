@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Gestionar cita Medica" skipped="0" tests="1" time="0.54" timestamp="2019-08-01T09:24:10.503-05:00[America/Bogota]"><testcase name="Realizar registro de un doctor"><failure message="The page object class com.choucair.formacion.pageobjects.GestionCitaMedicaPageObject looks dodgy:&#10;Failed to instantiate page (org.openqa.selenium.NoSuchElementException: For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'&#10;System info: host: 'CHMEPPF0HFPV3', ip: '172.17.27.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown)" type="net.thucydides.core.pages.WrongPageError">The page object class com.choucair.formacion.pageobjects.GestionCitaMedicaPageObject looks dodgy:
+Failed to instantiate page (org.openqa.selenium.NoSuchElementException: For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'CHMEPPF0HFPV3', ip: '172.17.27.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown)</failure><system-err>The page object class com.choucair.formacion.pageobjects.GestionCitaMedicaPageObject looks dodgy:
+Failed to instantiate page (org.openqa.selenium.NoSuchElementException: For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'CHMEPPF0HFPV3', ip: '172.17.27.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown)&#13;
+✽.Given Que carlos necesita registrar un nuevo doctor(src/test/resources/features/GestionCitaMedica.feature:6)&#13;
+</system-err></testcase></testsuite>

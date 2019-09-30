@@ -1,0 +1,14 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta charset="UTF-8" />
+<title>Instrucciones</title>
+</head>
+
+<body>
+Hola,
+Para ingresar a la página web de pruebas de automatización es necesario que un user ID (tu inicial del nombre y el apellido por ejemplo) sea parte de la URL. Por ejemplo, si te llamas Pedro Perez puedes usar pperez y entrar a la aplicación así:<br />
+
+<a href="http://automatizacion.herokuapp.com/pperez/">http://automatizacion.herokuapp.com/pperez/</a>
+
+<!-- image from http://dawdle.com/  -->
+
+</body></html>
