@@ -1,28 +1,445 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc1c587b-1e89-42d5-8f66-71ee1a3f8bfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/BusquedaTripDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/BusquedaTripPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/steps/BusquedaTripStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Datadriven/Datadriven.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BusquedaTrip.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/AgendamientoCitaDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/GestionCitaMedicaDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/GestionRegistroPacienteDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/AgendamientoCitaPageObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/GestionCitaMedicaPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/GestionRegistroPacientePageObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/steps/AgendamientoCitaSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/steps/GestionCitaMedicaSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/steps/GestionRegistroPacienteSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GestionCitaMedica.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/com.choucair.formacion.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/RunnerFeatures.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/RunnerFeatures.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/RunnerTags.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/RunnerTags.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/definition/GestionCitaMedicaDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/definition/GestionRegistroPacienteDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/pageobjects/GestionCitaMedicaPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/pageobjects/GestionRegistroPacientePageObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/steps/GestionCitaMedicaSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/steps/GestionRegistroPacienteSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/GestionCitaMedica.feature" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="D:/AFPCORE/pruebasAceptacionAFPCore" value="PREVIEW" />
-        <entry key="D:/AFPCORE/pruebasAceptacionAFPCore-version2" value="PREVIEW" />
-        <entry key="D:/Id inconsistencias/IdentificadorIncosistencias" value="PREVIEW" />
-        <entry key="D:/Identificador inconsistencias/identificadorinconsistencias" value="PREVIEW" />
-        <entry key="D:/Inconsistencias/ProyectoIdentificadorInconsistencias" value="PREVIEW" />
-        <entry key="D:/Mis documentos/IdentificadorIncosistencias" value="PREVIEW" />
-        <entry key="D:/Nueva identificador inconsistencias/IdentificadorIncosistencias/IdentificadorIncosistencias" value="PREVIEW" />
-        <entry key="D:/ProyectoEjemplo/proyectobase" value="PREVIEW" />
-        <entry key="D:/ProyectoEjemplo/proyectocapacitacionsesion1" value="PREVIEW" />
-        <entry key="D:/ProyectoSantiago/formacionengrupo" value="PREVIEW" />
-      </map>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/Datadriven/Datadriven.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+              <column index="0" width="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/BusquedaTrip.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/BusquedaTripDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="75" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/choucair/formacion/steps/BusquedaTripStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/BusquedaTripPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="200" column="47" selection-start-line="200" selection-start-column="47" selection-end-line="200" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/resources/features/BusquedaTrip.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerFeatures.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerTags.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/BusquedaTripDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/choucair/formacion/steps/BusquedaTripStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/BusquedaTripPage.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="575" />
-    <option name="width" value="798" />
-    <option name="height" value="735" />
+    <option name="x" value="897" />
+    <option name="y" value="121" />
+    <option name="width" value="481" />
+    <option name="height" value="592" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="com.choucair.formacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.choucair.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.choucair.formacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.choucair.base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.choucair.formacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.choucair.base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.choucair.formacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.choucair.base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.choucair.formacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.choucair.base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.choucair.formacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.choucair.base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="formacion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.choucair.formacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.choucair.base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.choucair.formacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.choucair.base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="com.choucair.formacion" type="58d84e3e:PackageViewProjectNode" />
+              <item name="com.choucair.formacion" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="com.choucair.formacion" type="58d84e3e:PackageViewProjectNode" />
+              <item name="com.choucair.formacion" type="616d4139:PackageViewModuleNode" />
+              <item name="com.choucair.formacion" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="com.choucair.formacion" type="58d84e3e:PackageViewProjectNode" />
+              <item name="com.choucair.formacion" type="616d4139:PackageViewModuleNode" />
+              <item name="Datadriven" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="com.choucair.formacion" type="58d84e3e:PackageViewProjectNode" />
+              <item name="com.choucair.formacion" type="616d4139:PackageViewModuleNode" />
+              <item name="features" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="RunnerFeatures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.choucair.formacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.choucair.formacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.choucair.formacion" />
+      <option name="MAIN_CLASS_NAME" value="com.choucair.formacion.RunnerFeatures" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RunnerFeatures" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc1c587b-1e89-42d5-8f66-71ee1a3f8bfe" name="Default Changelist" comment="" />
+      <created>1569853292956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569853292956</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RunnerFeatures - 2019.10.04 at 15h 40m 29s.xml">
+      <configuration name="RunnerFeatures" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerFeatures - 2019.10.04 at 15h 41m 41s.xml">
+      <configuration name="RunnerFeatures" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerFeatures - 2019.10.04 at 15h 43m 09s.xml">
+      <configuration name="RunnerFeatures" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerFeatures - 2019.10.04 at 15h 44m 26s.xml">
+      <configuration name="RunnerFeatures" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerFeatures - 2019.10.04 at 15h 45m 54s.xml">
+      <configuration name="RunnerFeatures" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerFeatures - 2019.10.04 at 15h 47m 06s.xml">
+      <configuration name="RunnerFeatures" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerFeatures - 2019.10.04 at 15h 48m 26s.xml">
+      <configuration name="RunnerFeatures" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerFeatures - 2019.10.04 at 15h 49m 34s.xml">
+      <configuration name="RunnerFeatures" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerFeatures - 2019.10.04 at 15h 52m 22s.xml">
+      <configuration name="RunnerFeatures" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerFeatures - 2019.10.04 at 16h 09m 57s.xml">
+      <configuration name="RunnerFeatures" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11043873" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42553192" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5564648" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.28968903" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/BusquedaTripPage.java</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/com_choucair_formacion$RunnerFeatures.ic" NAME="RunnerFeatures Coverage Results" MODIFIED="1569956364556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.choucair.formacion.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/GestionCitaMedica.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerTags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.5.7/serenity-core-1.5.7-sources.jar!/net/thucydides/core/steps/StepInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="362" selection-start-line="362" selection-end-line="362" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.5/cglib-3.2.5-sources.jar!/net/sf/cglib/proxy/MethodProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="228" selection-start-line="228" selection-end-line="228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Datadriven/Datadriven.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/BusquedaTrip.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/BusquedaTripDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="75" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/choucair/formacion/steps/BusquedaTripStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/BusquedaTripPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="200" column="47" selection-start-line="200" selection-start-column="47" selection-end-line="200" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
